@@ -5,6 +5,30 @@
       logo: /assets/images/logos/byr.png
       url: https://byr.pt/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
+      - title: 北洋园PT
+      logo: /assets/images/logos/byr.png
+      url: https://www.tjupt.org/attendance.php
+      description: 全球最大的学习分享平台
+      - title: HDCity
+      logo: /assets/images/logos/byr.png
+      url: https://hdcity.work/pt
+      description: 全球最大的学习分享平台
+      - title: PTer
+      logo: /assets/images/logos/byr.png
+      url: https://pterclub.com/torrents.php?sort=4&type=desc
+      description: 全球最大的学习分享平台
+      - title: HDCHD论坛
+      logo: /assets/images/logos/byr.png
+      url: https://hdchina.org/torrents.php?sort=4&type=desc
+      description: 全球最大的学习分享平台
+      - title: ptschool
+      logo: /assets/images/logos/byr.png
+      url: https://pt.btschool.club/index.php?action=addbonus
+      description: 全球最大的学习分享平台
+
+
+
+
     - title: Youtube
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/

@@ -19,6 +19,20 @@
     <link rel="stylesheet" href="/assets/css/xenon-skins.css">
     <link rel="stylesheet" href="/assets/css/nav.css">
     <script src="/assets/js/jquery-1.11.1.min.js"></script>
+    <style>
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 40px;
+            font-size: 18px;
+            color: #a89e84;
+            border: 2px solid #a89e84;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            outline: none;
+            box-sizing: border-box;
+        }
+    </style>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -57,10 +71,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-default">
-                        <div class="websites">
+                        {{ content }}
+                         <div class="websites">
                             <input type="text" class="search-box" placeholder="输入要访问的网址" />
                         </div>
-                        {{ content }}
                     </div>
                 </div>
             </div>

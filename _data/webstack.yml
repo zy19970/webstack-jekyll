@@ -3,7 +3,7 @@
   links: 
     - title: 北邮人
       logo: /assets/images/logos/byr.png
-      url: https://byr.pt/torrents.php?sort=4&type=desc/
+      url: https://byr.pt/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: 北洋园PT
       logo: /assets/images/logos/byr.png
@@ -11,19 +11,19 @@
       description: 全球最大的学习分享平台
     - title: HDCity
       logo: /assets/images/logos/byr.png
-      url: https://hdcity.work/pt/
+      url: https://hdcity.work/pt
       description: 全球最大的学习分享平台
     - title: PTer
       logo: /assets/images/logos/byr.png
-      url: https://pterclub.com/torrents.php?sort=4&type=desc/
+      url: https://pterclub.com/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: HDCHD论坛
       logo: /assets/images/logos/byr.png
-      url: https://hdchina.org/torrents.php?sort=4&type=desc/
+      url: https://hdchina.org/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: ptschool
       logo: /assets/images/logos/byr.png
-      url: https://pt.btschool.club/index.php?action=addbonus/
+      url: https://pt.btschool.club/index.php?action=addbonus
       description: 全球最大的学习分享平台
 
 
@@ -38,3 +38,53 @@
       logo: /assets/images/logos/google.png
       url: https://www.google.com/
       description: 全球最大的UI学习分享平台  
+
+- name: 内网服务
+  icon: linecons-star
+  links: 
+    - title: 群晖后台
+      logo: /assets/images/logos/byr.png
+      url: http://172.22.5.86:5000
+      description: 全球最大的学习分享平台
+    - title: IPv6地址查询
+      logo: /assets/images/logos/byr.png
+      url:http://ip.zxinc.org/ipquery/
+      description: 全球最大的学习分享平台
+    - title: 火箭TNT
+      logo: /assets/images/logos/byr.png
+      url:http://www.hjtnt5.com/user
+      description: 全球最大的学习分享平台
+    - title: 内网打印机
+      logo: /assets/images/logos/byr.png
+      url:https://172.22.5.48:631/admin
+      description: 全球最大的学习分享平台
+    - title: SMMS图床
+      logo: /assets/images/logos/byr.png
+      url:https://smms.app/home/
+      description: 全球最大的学习分享平台
+    - title: 路过图床
+      logo: /assets/images/logos/byr.png
+      url:https://imgse.com/intron
+      description: 全球最大的学习分享平台
+    - title: Cloudflare
+      logo: /assets/images/logos/byr.png
+      url:https://dash.cloudflare.com/
+      description: 全球最大的学习分享平台
+    - title: Google学术
+      logo: /assets/images/logos/byr.png
+      url:https://scholar.google.com/
+      description: 全球最大的学习分享平台
+    - title: Google学术镜像
+      logo: /assets/images/logos/byr.png
+      url:http://ac.scmor.com/
+      description: 全球最大的学习分享平台
+    - title: Gitee
+      logo: /assets/images/logos/byr.png
+      url:https://gitee.com/zy19970
+      description: 全球最大的学习分享平台
+    - title: 监控IPv6
+      logo: /assets/images/logos/byr.png
+      url:https://scholar.google.com/
+      description: 全球最大的学习分享平台
+
+

@@ -161,8 +161,7 @@ layout: home
         <div class="footer-inner">
             <!-- Add your copyright text here -->
             <div class="footer-text">
-                <a href="https://beian.miit.gov.cn/" rel="external nofollow noopener" target="_blank"> 京ICP备19046886号-2</a> © Copyright 2024
-                Design by <a href="http://www.intron.store" target="_blank"><strong>Yu Zhou</strong></a> Last updated: June 20, 2024.
+                <p id="copyright"></p>
                 <!--  - Purchase for only <strong>23$</strong> -->
             </div>
             <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
@@ -234,4 +233,8 @@ layout: home
         href = $(this).attr("href");
         pos = $(href).position().top - 30;
     });
+</script>
+<script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("copyright").innerHTML = "Design by <a href='http://www.intron.store' target='_blank'><strong>Joey</strong></a> "+"© 2019-" + currentYear + " | <a href='https://beian.miit.gov.cn/' rel='external nofollow noopener' target='_blank'> 京ICP备19046886号-2</a>";
 </script>

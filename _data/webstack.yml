@@ -48,43 +48,54 @@
       description: 全球最大的学习分享平台
     - title: IPv6地址查询
       logo: /assets/images/logos/byr.png
-      url:http://ip.zxinc.org/ipquery/
+      url: http://ip.zxinc.org/ipquery/
       description: 全球最大的学习分享平台
     - title: 火箭TNT
       logo: /assets/images/logos/byr.png
-      url:http://www.hjtnt5.com/user
+      url: http://www.hjtnt5.com/user
       description: 全球最大的学习分享平台
     - title: 内网打印机
       logo: /assets/images/logos/byr.png
-      url:https://172.22.5.48:631/admin
+      url: https://172.22.5.48:631/admin
       description: 全球最大的学习分享平台
     - title: SMMS图床
       logo: /assets/images/logos/byr.png
-      url:https://smms.app/home/
+      url: https://smms.app/home/
       description: 全球最大的学习分享平台
     - title: 路过图床
       logo: /assets/images/logos/byr.png
-      url:https://imgse.com/intron
+      url: https://imgse.com/intron
       description: 全球最大的学习分享平台
     - title: Cloudflare
       logo: /assets/images/logos/byr.png
-      url:https://dash.cloudflare.com/
+      url: https://dash.cloudflare.com/
       description: 全球最大的学习分享平台
     - title: Google学术
       logo: /assets/images/logos/byr.png
-      url:https://scholar.google.com/
+      url: https://scholar.google.com/
       description: 全球最大的学习分享平台
     - title: Google学术镜像
       logo: /assets/images/logos/byr.png
-      url:http://ac.scmor.com/
+      url: http://ac.scmor.com/
       description: 全球最大的学习分享平台
     - title: Gitee
       logo: /assets/images/logos/byr.png
-      url:https://gitee.com/zy19970
+      url: https://gitee.com/zy19970
       description: 全球最大的学习分享平台
     - title: 监控IPv6
       logo: /assets/images/logos/byr.png
-      url:https://scholar.google.com/
+      url: https://scholar.google.com/
       description: 全球最大的学习分享平台
-
+    - title: 微信公众平台
+      logo: /assets/images/logos/byr.png
+      url: https://mp.weixin.qq.com/
+      description: 全球最大的学习分享平台
+    - title: ResearchGate
+      logo: /assets/images/logos/byr.png
+      url: https://www.researchgate.net
+      description: 全球最大的学习分享平台
+    - title: Overleaf
+      logo: /assets/images/logos/byr.png
+      url: https://cn.overleaf.com/project
+      description: 全球最大的学习分享平台
 

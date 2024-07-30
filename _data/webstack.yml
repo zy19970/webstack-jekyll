@@ -114,7 +114,7 @@
       logo: /assets/images/logos/52pojie.png
       url: http://www.52pojie.cn/
       description: 全球最大的学习分享平台
-    - title: github
+    - title: Github
       logo: /assets/images/logos/52pojie.png
       url: https://github.com/explore
       description: 全球最大的学习分享平台
@@ -133,4 +133,25 @@
     - title: 开放猫AI
       logo: /assets/images/logos/52pojie.png
       url: https://www.openmao.cn/
+      description: 全球最大的学习分享平台
+    - title: Bing
+      logo: /assets/images/logos/52pojie.png
+      url: https://www.bing.com/
+      description: 全球最大的学习分享平台
+    - title: DuckDuckGo
+      logo: /assets/images/logos/52pojie.png
+      url: https://duckduckgo.com/
+      description: 全球最大的学习分享平台
+
+    - title: 维基百科
+      logo: /assets/images/logos/52pojie.png
+      url: https://zh.wikipedia.org/
+      description: 全球最大的学习分享平台
+    - title: YouTube
+      logo: /assets/images/logos/52pojie.png
+      url: https://www.youtube.com/?gl=US
+      description: 全球最大的学习分享平台
+    - title: Telegram
+      logo: /assets/images/logos/52pojie.png
+      url: https://web.telegram.org/
       description: 全球最大的学习分享平台

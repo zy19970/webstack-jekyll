@@ -6,11 +6,11 @@
       url: https://byr.pt/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: 北洋园PT
-      logo: /assets/images/logos/byr.png
-      url: https://www.tjupt.org/attendance.php/
+      logo: /assets/images/logos/tjupt.png
+      url: https://www.tjupt.org/attendance.php
       description: 全球最大的学习分享平台
     - title: HDCity
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/hdcity.png
       url: https://hdcity.work/pt
       description: 全球最大的学习分享平台
     - title: PTer
@@ -18,11 +18,11 @@
       url: https://pterclub.com/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: HDCHD论坛
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/hdc.png
       url: https://hdchina.org/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: ptschool
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/btschool.png
       url: https://pt.btschool.club/index.php?action=addbonus
       description: 全球最大的学习分享平台
 
@@ -43,11 +43,11 @@
   icon: linecons-star
   links: 
     - title: 群晖后台
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/sy.png
       url: http://172.22.5.86:5000
       description: 全球最大的学习分享平台
     - title: IPv6地址查询
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/ipv6.png
       url: http://ip.zxinc.org/ipquery/
       description: 全球最大的学习分享平台
     - title: 火箭TNT
@@ -55,7 +55,7 @@
       url: http://www.hjtnt5.com/user
       description: 全球最大的学习分享平台
     - title: 内网打印机
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/print.png
       url: https://172.22.5.48:631/admin
       description: 全球最大的学习分享平台
     - title: SMMS图床
@@ -63,15 +63,15 @@
       url: https://smms.app/home/
       description: 全球最大的学习分享平台
     - title: 路过图床
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/imgse.png
       url: https://imgse.com/intron
       description: 全球最大的学习分享平台
     - title: Cloudflare
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/cloudflare.png
       url: https://dash.cloudflare.com/
       description: 全球最大的学习分享平台
     - title: Google学术
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/scholar.png
       url: https://scholar.google.com/
       description: 全球最大的学习分享平台
     - title: Google学术镜像
@@ -79,38 +79,38 @@
       url: http://ac.scmor.com/
       description: 全球最大的学习分享平台
     - title: Gitee
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/gitee.png
       url: https://gitee.com/zy19970
       description: 全球最大的学习分享平台
     - title: 监控IPv6
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/cctv.png
       url: https://scholar.google.com/
       description: 全球最大的学习分享平台
     - title: 微信公众平台
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/wechat.png
       url: https://mp.weixin.qq.com/
       description: 全球最大的学习分享平台
     - title: ResearchGate
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/researchgate.png
       url: https://www.researchgate.net
       description: 全球最大的学习分享平台
     - title: Overleaf
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/overleaf.png
       url: https://cn.overleaf.com/project
       description: 全球最大的学习分享平台
     - title: LaTeX公式
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/latex.png
       url: https://www.latexlive.com/
       description: 全球最大的学习分享平台
     - title: SimpleTex - Snip & Get!
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/simple.png
       url: https://simpletex.cn/
       description: 全球最大的学习分享平台
     - title: 蓝谷科技
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/languyun.png
       url: https://www.8465.cn/cart?fid=1&gid=6
       description: 全球最大的学习分享平台
     - title: 吾爱破解论坛
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/52pojie.png
       url: http://www.52pojie.cn/
       description: 全球最大的学习分享平台

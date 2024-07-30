@@ -14,7 +14,7 @@
       url: https://hdcity.work/pt
       description: 全球最大的学习分享平台
     - title: PTer
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/pter.png
       url: https://pterclub.com/torrents.php?sort=4&type=desc
       description: 全球最大的学习分享平台
     - title: HDCHD论坛
@@ -42,19 +42,19 @@
   icon: linecons-star
   links: 
     - title: 文心一言
-      logo: /assets/images/logos/52pojie.png
+      logo: /assets/images/logos/wxyy.png
       url: https://yiyan.baidu.com/
       description: 全球最大的学习分享平台
     - title: 通义千问
-      logo: /assets/images/logos/52pojie.png
+      logo: /assets/images/logos/tyqw.png
       url: https://tongyi.aliyun.com/qianwen/
       description: 全球最大的学习分享平台
     - title: 星火大模型
-      logo: /assets/images/logos/52pojie.png
+      logo: /assets/images/logos/spark.png
       url: https://xinghuo.xfyun.cn/desk
       description: 全球最大的学习分享平台
     - title: 开放猫AI
-      logo: /assets/images/logos/52pojie.png
+      logo: /assets/images/logos/maoai.png
       url: https://www.openmao.cn/
       description: 全球最大的学习分享平台 
 
@@ -62,7 +62,7 @@
   icon: linecons-star
   links: 
     - title: Github
-      logo: /assets/images/logos/52pojie.png
+      logo: /assets/images/logos/github.png
       url: https://github.com/explore
       description: 全球最大的学习分享平台
     - title: Youtube
@@ -102,7 +102,7 @@
       url: http://ip.zxinc.org/ipquery/
       description: 全球最大的学习分享平台
     - title: 火箭TNT
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/tnt.png
       url: http://www.hjtnt5.com/user
       description: 全球最大的学习分享平台
     - title: 内网打印机
@@ -110,7 +110,7 @@
       url: https://172.22.5.48:631/admin
       description: 全球最大的学习分享平台
     - title: SMMS图床
-      logo: /assets/images/logos/byr.png
+      logo: /assets/images/logos/smms.png
       url: https://smms.app/home/
       description: 全球最大的学习分享平台
     - title: 路过图床

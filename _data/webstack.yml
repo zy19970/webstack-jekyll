@@ -114,3 +114,23 @@
       logo: /assets/images/logos/52pojie.png
       url: http://www.52pojie.cn/
       description: 全球最大的学习分享平台
+    - title: github
+      logo: /assets/images/logos/52pojie.png
+      url: https://github.com/explore
+      description: 全球最大的学习分享平台
+    - title: 文心一言
+      logo: /assets/images/logos/52pojie.png
+      url: https://yiyan.baidu.com/
+      description: 全球最大的学习分享平台
+    - title: 通义千问
+      logo: /assets/images/logos/52pojie.png
+      url: https://tongyi.aliyun.com/qianwen/
+      description: 全球最大的学习分享平台
+    - title: 星火大模型
+      logo: /assets/images/logos/52pojie.png
+      url: https://xinghuo.xfyun.cn/desk
+      description: 全球最大的学习分享平台
+    - title: 开放猫AI
+      logo: /assets/images/logos/52pojie.png
+      url: https://www.openmao.cn/
+      description: 全球最大的学习分享平台

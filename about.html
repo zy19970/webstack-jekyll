@@ -74,6 +74,7 @@
             <footer class="main-footer sticky footer-type-1 fixed">
                 <div class="footer-inner">
                     <div class="footer-text">
+                        <p id="copyright"></p>
                         <a href="https://beian.miit.gov.cn/" rel="external nofollow noopener" target="_blank"> 京ICP备19046886号-2</a> © Copyright 2024
                         Design by <a href="http://www.intron.store" target="_blank"><strong>Yu Zhou</strong></a> Last updated: June 20, 2024.
                     </div>
@@ -95,6 +96,10 @@
     <script src="assets/js/xenon-toggles.js"></script>
     <!-- JavaScripts initializations and stuff -->
     <script src="assets/js/xenon-custom.js"></script>
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("copyright").innerHTML = "Copyright 2019-" + currentYear + " Design by <a href="http://www.intron.store" target="_blank"><strong>Yu Zhou</strong></a>";
+    </script>
     <!-- 搜索跳转 -->
     <script>
         const searchBox = document.querySelector('.search-box');

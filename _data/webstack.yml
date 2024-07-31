@@ -157,6 +157,9 @@
       logo: /assets/images/logos/52pojie.png
       url: http://www.52pojie.cn/
       description: 全球最大的学习分享平台
-
+    - title: 我不是盐神
+      logo: /assets/images/logos/onehu.png
+      url: https://onehu.xyz/
+      description: 知乎严选爬取
 
 

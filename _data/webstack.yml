@@ -149,9 +149,12 @@
       logo: /assets/images/logos/simple.png
       url: https://simpletex.cn/
       description: 全球最大的学习分享平台
+    - title: Cloudflare 测速
+      logo: /assets/images/logos/cloudflare.png
+      url: https://speed.cloudflare.com/
     - title: 蓝谷科技
       logo: /assets/images/logos/languyun.png
-      url: https://www.8465.cn/cart?fid=1&gid=6
+      url: https://8465.cn/cart?fid=1&gid=6
       description: 全球最大的学习分享平台
     - title: 吾爱破解论坛
       logo: /assets/images/logos/52pojie.png

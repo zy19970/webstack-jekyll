@@ -152,6 +152,7 @@
     - title: Cloudflare 测速
       logo: /assets/images/logos/cloudflare.png
       url: https://speed.cloudflare.com/
+      description: 由Cloudflare的全球边缘网络提供测速支持
     - title: 蓝谷科技
       logo: /assets/images/logos/languyun.png
       url: https://8465.cn/cart?fid=1&gid=6

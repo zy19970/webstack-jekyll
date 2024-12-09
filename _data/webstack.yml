@@ -53,6 +53,14 @@
       logo: /assets/images/logos/tyqw.png
       url: https://tongyi.aliyun.com/qianwen/
       description: 全球最大的学习分享平台
+    - title: Kimi
+      logo: /assets/images/logos/kimi.png
+      url: https://kimi.moonshot.cn/
+      description: 全球最大的学习分享平台
+    - title: 豆包
+      logo: /assets/images/logos/doubao.png
+      url: https://www.doubao.com/chat/
+      description: 全球最大的学习分享平台
     - title: 星火大模型
       logo: /assets/images/logos/spark.png
       url: https://xinghuo.xfyun.cn/desk

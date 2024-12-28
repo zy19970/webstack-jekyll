@@ -173,5 +173,8 @@
       logo: /assets/images/logos/onehu.png
       url: https://onehu.xyz/
       description: 知乎严选爬取
-
+    - title: Home Assistant
+      logo: /assets/images/logos/HA.png
+      url: http:/intron.51vip.biz:28129/
+      description: 智能家居控制中枢
 

@@ -32,7 +32,7 @@ GEM
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.0.1)
-      sassc (2.0.0)
+      sassc (2.0.1)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)

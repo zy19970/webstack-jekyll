@@ -280,6 +280,10 @@ DEPENDENCIES
   observer
   ostruct
   terser
+  minima (~> 2.5)
+  tzinfo (~> 1.2)
+  tzinfo-data
+  wdm (~> 0.1.1)
 
 BUNDLED WITH
    2.6.2

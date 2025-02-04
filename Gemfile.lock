@@ -239,6 +239,7 @@ GEM
     unicode-display_width (2.6.0)
     uri (1.0.2)
     webrick (1.9.1)
+    minima (~> 2.5)
 
 PLATFORMS
   aarch64-linux
@@ -280,10 +281,8 @@ DEPENDENCIES
   observer
   ostruct
   terser
-  minima (~> 2.5)
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  minima
+
 
 BUNDLED WITH
    2.6.2

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
-gem "minima", "~> 2.5"
+gem "minima"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do

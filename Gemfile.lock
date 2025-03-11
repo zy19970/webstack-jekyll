@@ -105,7 +105,7 @@ GEM
     rake (13.2.1)
 
 
-    
+
 
 PLATFORMS
   ruby
@@ -119,4 +119,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.0.2
+   2.6.5

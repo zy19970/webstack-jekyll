@@ -298,7 +298,7 @@ DEPENDENCIES
   jekyll-terser!
   jekyll-toc
   jekyll-twitter-plugin
-  minima (~> 2.5)
+  minima
   jemoji
   observer
   ostruct

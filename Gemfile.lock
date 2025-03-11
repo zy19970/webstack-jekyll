@@ -9,6 +9,10 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    minima (2.5.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     activesupport (8.0.1)
       base64
       benchmark (>= 0.3)

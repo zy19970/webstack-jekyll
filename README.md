@@ -1,6 +1,5 @@
 # ➡️ [s.intron.store](https://s.intron.store/) - 网址导航
 
-本项目是 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 的 [Jekyll](https://jekyllrb.com/) 版。
 
 > 这是一个纯静态的网址导航网站，最初的开发是由 [viggo](http://viggoz.com/) 完成，[0xl2oot](https://github.com/0xl2oot/webstack-jekyll)完成了基于 Jekyll 版本的开发。
 

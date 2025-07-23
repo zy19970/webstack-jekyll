@@ -1,30 +1,23 @@
-- name: PT站点
+- name: 公司内网
   icon: linecons-star
   links: 
-    - title: 北邮人
+    - title: 主页
       logo: /assets/images/logos/byr.png
-      url: https://byr.pt/torrents.php?sort=4&type=desc
+      url: https://www.bgrimm.com/
       description: 全球最大的学习分享平台
-    - title: 北洋园PT
+    - title: 邮箱
       logo: /assets/images/logos/tjupt.png
-      url: https://www.tjupt.org/attendance.php
+      url: https://mail.bgrimm.com/
       description: 全球最大的学习分享平台
-    - title: HDCity
+    - title: OA系统
       logo: /assets/images/logos/hdcity.png
-      url: https://hdcity.work/pt
+      url: https://oa.bgrimm.cn/seeyon/index.jsp
       description: 全球最大的学习分享平台
-    - title: PTer
-      logo: /assets/images/logos/PTer.png
-      url: https://pterclub.com/torrents.php?sort=4&type=desc
+    - title: 报销系统
+      logo: /assets/images/logos/yunjia.svg
+      url: https://gsc.bgrimm.cn/
       description: 全球最大的学习分享平台
-    - title: HDCHD论坛
-      logo: /assets/images/logos/hdc.png
-      url: https://hdchina.org/torrents.php?sort=4&type=desc
-      description: 全球最大的学习分享平台
-    - title: ptschool
-      logo: /assets/images/logos/btschool.png
-      url: https://pt.btschool.club/index.php?action=addbonus
-      description: 全球最大的学习分享平台
+
 
 - name: 搜索引擎
   icon: linecons-star

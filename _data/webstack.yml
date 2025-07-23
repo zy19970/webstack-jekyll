@@ -1,26 +1,5 @@
-- name: 公司内网
-  icon: linecons-star
-  links: 
-    - title: 主页
-      logo: /assets/images/logos/BGRIMM.webp
-      url: https://www.bgrimm.com/
-      description: 矿冶科技集团有限公司
-    - title: 邮箱
-      logo: /assets/images/logos/Coremail.png
-      url: https://mail.bgrimm.com/
-      description: 矿冶集团
-    - title: OA系统
-      logo: /assets/images/logos/seeyon.png
-      url: https://oa.bgrimm.cn/seeyon/index.jsp
-      description: 综合信息管理系统
-    - title: 报销系统
-      logo: /assets/images/logos/yunjia.svg
-      url: https://gsc.bgrimm.cn/
-      description: 企业数字化云平台
-
-
 - name: 搜索引擎
-  icon: linecons-star
+  icon: linecons-search
   links: 
     - title: 百度
       logo: https://www.baidu.com/img/flexible/logo/pc/result.png
@@ -35,9 +14,30 @@
       url: https://www.bing.com/
       description: 全球最大的学习分享平台
 
+- name: 公司内网
+  icon: linecons-note
+  links: 
+    - title: 主页
+      logo: /assets/images/logos/BGRIMM.webp
+      url: https://www.bgrimm.com/
+      description: 矿冶科技集团有限公司
+    - title: 邮箱
+      logo: /assets/images/logos/Coremail.png
+      url: https://mail.bgrimm.com/
+      description: 矿冶集团邮箱
+    - title: OA系统
+      logo: /assets/images/logos/seeyon.png
+      url: https://oa.bgrimm.cn/seeyon/index.jsp
+      description: 综合信息管理系统
+    - title: 报销系统
+      logo: /assets/images/logos/yunjia.svg
+      url: https://gsc.bgrimm.cn/
+      description: 企业数字化云平台
+
+
 
 - name: 大模型
-  icon: linecons-star
+  icon: linecons-cloud
   links: 
     - title: 文心一言
       logo: /assets/images/logos/wxyy.png

@@ -4,19 +4,19 @@
     - title: 主页
       logo: /assets/images/logos/BGRIMM.webp
       url: https://www.bgrimm.com/
-      description: 全球最大的学习分享平台
+      description: 矿冶科技集团有限公司
     - title: 邮箱
       logo: /assets/images/logos/Coremail.png
       url: https://mail.bgrimm.com/
-      description: 全球最大的学习分享平台
+      description: 矿冶集团
     - title: OA系统
       logo: /assets/images/logos/seeyon.png
       url: https://oa.bgrimm.cn/seeyon/index.jsp
-      description: 全球最大的学习分享平台
+      description: 综合信息管理系统
     - title: 报销系统
       logo: /assets/images/logos/yunjia.svg
       url: https://gsc.bgrimm.cn/
-      description: 全球最大的学习分享平台
+      description: 企业数字化云平台
 
 
 - name: 搜索引擎

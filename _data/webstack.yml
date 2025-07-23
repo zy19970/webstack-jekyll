@@ -22,6 +22,10 @@
 - name: 搜索引擎
   icon: linecons-star
   links: 
+    - title: 百度
+      logo: https://www.baidu.com/img/flexible/logo/pc/result.png
+      url: https://www.baidu.com/
+      description: 全球最大的学习分享平台   
     - title: Google
       logo: /assets/images/logos/google.png
       url: https://www.google.com/
@@ -30,10 +34,7 @@
       logo: /assets/images/logos/bing.png
       url: https://www.bing.com/
       description: 全球最大的学习分享平台
-    - title: DuckDuckGo
-      logo: /assets/images/logos/duck.png
-      url: https://duckduckgo.com/
-      description: 全球最大的学习分享平台   
+
 
 - name: 大模型
   icon: linecons-star

@@ -271,13 +271,13 @@ layout: home
                 const ipv6Data = await ipv6Response.json();
                 document.getElementById('ipv6').textContent = ipv6Data.ip;
             } catch (e) {
-                document.getElementById('ipv6').innerHTML = '<span>IPv6: 未检测到IPv6地址</span>';
+                document.getElementById('ipv6').innerHTML = '<span>未检测到IPv6地址</span>';
             }
 
         } catch (error) {
             console.error('获取IP地址失败:', error);
-            document.getElementById('ipv4').innerHTML = '<span>IPv4: 获取失败</span>';
-            document.getElementById('ipv6').innerHTML = '<span>IPv6: 获取失败</span>';
+            document.getElementById('ipv4').innerHTML = '<span>IPv4地址获取失败</span>';
+            document.getElementById('ipv6').innerHTML = '<span>IPv6地址获取失败</span>';
         }
     }
 

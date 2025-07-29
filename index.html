@@ -120,7 +120,14 @@
             <br >
             <li>
                 <a>
-                    -未来已来-
+                    <div class="ip-value" id="ipv4">
+                        <span class="loading">正在获取...</span>
+                    </div>
+
+                
+                    <div class="ip-value" id="ipv6">
+                        <span class="loading">正在获取...</span>
+                    </div>
                 </a>
             </li>
         </ul>
@@ -905,6 +912,58 @@
         pos = $(href).position().top - 30;
     });
 </script>
+
+<script>
+    async function getIP() {
+        try {
+            // 使用多个IP检测服务以确保可靠性
+            const services = [
+                'https://api.ipify.org?format=json',
+                'https://ipapi.co/json/',
+                'https://httpbin.org/ip'
+            ];
+
+            // 尝试获取IPv4
+            for (let service of services) {
+                try {
+                    const response = await fetch(service);
+                    const data = await response.json();
+                    
+                    if (data.ip) {
+                        document.getElementById('ipv4').textContent = data.ip;
+                        break;
+                    } else if (data.origin) {
+                        document.getElementById('ipv4').textContent = data.origin;
+                        break;
+                    }
+                } catch (e) {
+                    continue;
+                }
+            }
+
+            // 获取IPv6（通过特定服务）
+            try {
+                const ipv6Response = await fetch('https://api6.ipify.org?format=json');
+                const ipv6Data = await ipv6Response.json();
+                document.getElementById('ipv6').textContent = ipv6Data.ip;
+            } catch (e) {
+                document.getElementById('ipv6').innerHTML = '<span>未检测到IPv6地址</span>';
+            }
+
+        } catch (error) {
+            console.error('获取IP地址失败:', error);
+            document.getElementById('ipv4').innerHTML = '<span>获取失败</span>';
+            document.getElementById('ipv6').innerHTML = '<span>获取失败</span>';
+        }
+    }
+
+    // 页面加载完成后自动获取IP
+    document.addEventListener('DOMContentLoaded', getIP);
+    
+    // 每分钟更新一次IP
+    setInterval(getIP, 60000);
+</script>
+
 <script>
         const currentYear = new Date().getFullYear();
         document.getElementById("copyright").innerHTML = "Design by <a href='http://www.intron.store' target='_blank'><strong>Joey</strong></a> "+"© 2019-" + currentYear + " | <a href='https://beian.miit.gov.cn/' rel='external nofollow noopener' target='_blank'> 京ICP备19046886号-2</a>";

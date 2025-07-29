@@ -254,10 +254,10 @@ layout: home
                     const data = await response.json();
                     
                     if (data.ip) {
-                        document.getElementById('ipv4').textContent = "IPv4: "+data.ip;
+                        document.getElementById('ipv4').textContent = data.ip;
                         break;
                     } else if (data.origin) {
-                        document.getElementById('ipv4').textContent = "IPv4: "+data.origin;
+                        document.getElementById('ipv4').textContent = data.origin;
                         break;
                     }
                 } catch (e) {
@@ -269,7 +269,7 @@ layout: home
             try {
                 const ipv6Response = await fetch('https://api6.ipify.org?format=json');
                 const ipv6Data = await ipv6Response.json();
-                document.getElementById('ipv6').textContent = "IPv6: "+ipv6Data.ip;
+                document.getElementById('ipv6').textContent = ipv6Data.ip;
             } catch (e) {
                 document.getElementById('ipv6').innerHTML = '<span>IPv6: 未检测到IPv6地址</span>';
             }

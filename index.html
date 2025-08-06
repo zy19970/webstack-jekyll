@@ -262,7 +262,7 @@ layout: home
 
     // 获取IPv6地址（使用指定API）
     function getIPv6() {
-    fetch('http://v6.ip.zxinc.org/getip')
+    fetch('https://v6.ip.zxinc.org/getip')
         .then(response => {
         if (!response.ok) throw new Error('获取IPv6失败');
         return response.text();

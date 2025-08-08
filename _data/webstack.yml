@@ -175,4 +175,8 @@
       logo: /assets/images/logos/HA.png
       url: http:/intron.51vip.biz:28129/
       description: 智能家居控制中枢
+    - title: Microsoft Store
+      logo: assets/images/logos/Store.png
+      url: https://store.rg-adguard.net/
+      description: 微软应用商店应用下载
 

@@ -184,14 +184,14 @@
       url: https://store.rg-adguard.net/
       description: 微软应用商店应用下载
     - title: Look Scanned
-      logo: assets/images/logos/Store.png
+      logo: https://infinitypro-img.infinitynewtab.com/custom-icon/9001cb1f8tsp5j2f554uz2m316lv1r.png
       url: https://lookscanned.io/zh
       description: PDF文件扫描生成
-    - title: Microsoft Store
-      logo: assets/images/logos/Store.png
+    - title: 抖音视频下载
+      logo: https://infinitypro-img.infinitynewtab.com/custom-icon/8001dqh3p6ashqujabze1jzukbyung.png
       url: https://dy.kukutool.com/
       description: 抖音视频下载
     - title: Edge文本朗读
-      logo: assets/images/logos/Store.png
+      logo: https://infinitypro-img.infinitynewtab.com/custom-icon/8001f5aljgddesw2de1y7wg1tbinvh.png
       url: assets/html/sound.html
       description: 按 Ctrl+Shift+U 开始朗读

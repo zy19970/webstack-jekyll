@@ -191,3 +191,7 @@
       logo: assets/images/logos/Store.png
       url: https://dy.kukutool.com/
       description: 抖音视频下载
+    - title: Edge文本朗读
+      logo: assets/images/logos/Store.png
+      url: assets/html/sound.html
+      description: 按 Ctrl+Shift+U 开始朗读

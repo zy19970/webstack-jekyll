@@ -154,6 +154,26 @@
                     <i class="fa-bars"></i>
                 </a>
             </li>
+
+            
+<!-- 百度搜索框 -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="baidu-search-box">
+                        <form class="baidu-search-form" action="https://www.baidu.com/s" method="get" target="_blank">
+                            <div class="baidu-search-input-wrap">
+                                <span class="baidu-search-icon"><i class="fa fa-search"></i></span>
+                                <input type="text" name="wd" class="baidu-search-input" placeholder="请输入搜索内容..." autocomplete="off" required>
+                                <button type="submit" class="baidu-search-btn">百度一下</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
             <!-- <li class="dropdown hover-line language-switcher">
                 <a href="../cn/index.html" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="/assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
@@ -1046,6 +1066,165 @@
     getIPv6();
     });
 </script>
+
+    <style>
+        /* 百度搜索框 - 响应式优化 */
+        .baidu-search-box {
+            background: #fff;
+            padding: 25px 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .baidu-search-form {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .baidu-search-input-wrap {
+            display: flex;
+            align-items: center;
+            border: 2px solid #4e6ef2;
+            border-radius: 24px;
+            overflow: hidden;
+            background: #fff;
+            width: 100%;
+        }
+        .baidu-search-icon {
+            padding: 0 15px;
+            color: #4e6ef2;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+        .baidu-search-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 14px 0;
+            font-size: 16px;
+            color: #333;
+            background: transparent;
+            min-width: 0; /* 防止 flex 子项溢出 */
+        }
+        .baidu-search-btn {
+            background: #4e6ef2;
+            color: #fff;
+            border: none;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .baidu-search-btn:hover {
+            background: #4662d9;
+        }
+        
+        /* 卡片响应式优化 */
+        .xe-widget {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .xe-widget:active {
+            transform: scale(0.98);
+        }
+        .xe-comment-entry {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+        }
+        .xe-user-img img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+        .xe-comment {
+            min-width: 0; /* 确保文本截断生效 */
+            margin-left: 12px;
+        }
+        .overflowClip_1, .overflowClip_2 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        /* 移动端优化 (小于 768px) */
+        @media (max-width: 767px) {
+            .baidu-search-box {
+                padding: 15px 10px;
+                margin-bottom: 15px;
+                border-radius: 6px;
+            }
+            .baidu-search-input-wrap {
+                border-radius: 20px;
+            }
+            .baidu-search-icon {
+                padding: 0 10px;
+                font-size: 16px;
+            }
+            .baidu-search-input {
+                padding: 12px 0;
+                font-size: 15px;
+            }
+            .baidu-search-btn {
+                padding: 12px 18px;
+                font-size: 15px;
+            }
+            h4.text-gray {
+                font-size: 16px;
+                margin-top: 20px;
+                margin-bottom: 12px;
+            }
+            .xe-comment-entry {
+                padding: 10px;
+            }
+            .xe-user-img img {
+                width: 36px;
+                height: 36px;
+            }
+            .xe-comment {
+                margin-left: 10px;
+            }
+            .xe-comment strong {
+                font-size: 13px;
+            }
+            .xe-comment p {
+                font-size: 11px;
+            }
+            .main-content {
+                padding: 0 10px;
+            }
+        }
+        
+        /* 超小屏幕优化 (小于 480px) */
+        @media (max-width: 479px) {
+            .baidu-search-btn {
+                padding: 10px 14px;
+                font-size: 14px;
+            }
+            .baidu-search-input {
+                padding: 10px 0;
+                font-size: 14px;
+            }
+            .xe-comment-entry {
+                padding: 8px;
+            }
+            .xe-user-img img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        
+        /* 平板优化 (768px - 991px) */
+        @media (min-width: 768px) and (max-width: 991px) {
+            .baidu-search-box {
+                padding: 20px;
+            }
+        }
+    </style>
+
 
 <script>
         const currentYear = new Date().getFullYear();

@@ -181,7 +181,7 @@
       description: 智能家居控制中枢
     - title: Microsoft Store
       logo: assets/images/logos/Store.png
-      url: assets/html/sound.html?url=https://store.rg-adguard.net/
+      url: assets/html/link.html?url=https://store.rg-adguard.net/
       description: 微软应用商店应用下载
     - title: Look Scanned
       logo: https://static-cdn.camscanner.com/camscanner-seo/img/share.fff0391.png
@@ -189,7 +189,7 @@
       description: PDF文件扫描生成
     - title: 抖音视频下载
       logo: https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/ies/douyin_web/media/logo-jx-horizontal-small.03b5fc62ced6d184.svg
-      url: assets/html/sound.html?url=https://dy.kukutool.com/
+      url: assets/html/link.html?url=https://dy.kukutool.com/
       description: 抖音视频下载
     - title: Edge文本朗读
       logo: https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/logos/9bf02dd94ea34924aa15548eef82ed24-png-w231.avif

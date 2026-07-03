@@ -29,7 +29,7 @@
 <body>
     <div class="loading" id="loadingDiv">
         <h2>正在跳转...</h2>
-        <p>页面即将跳转，请稍候</p>
+        <p>页面跳转速度取决于您的网速，请稍候</p>
     </div>
 
     <script>
@@ -116,7 +116,7 @@
         if (!allowedOrigins.has(parsedUrl.origin)) {
             return {
                 ok: false,
-                message: "错误：该网站不在白名单内，已阻止跳转"
+                message: "警告：该网站不在白名单内，已阻止跳转"
             };
         }
 
@@ -129,7 +129,7 @@
     function showError(message) {
         document.getElementById("loadingDiv").innerHTML = `
             <h2>${message}</h2>
-            <p>请检查跳转链接或联系管理员添加白名单。</p>
+            <p>请检查网络连接情况或联系管理员添加白名单。</p>
         `;
     }
 

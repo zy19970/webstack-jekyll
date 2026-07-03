@@ -77,27 +77,27 @@
   links: 
     - title: Github
       logo: /assets/images/logos/github.png
-      url: https://github.com/explore
+      url: assets/html/link.html?url=https://github.com/explore
       description: 全球最大的学习分享平台
     - title: Youtube
       logo: /assets/images/logos/youtube.png
-      url: https://www.youtube.com/
+      url: assets/html/link.html?url=https://www.youtube.com/
       description: 全球最大的学习分享平台
     - title: 维基百科
       logo: /assets/images/logos/wiki.png
-      url: https://zh.wikipedia.org/
+      url: assets/html/link.html?url=https://zh.wikipedia.org/
       description: 全球最大的学习分享平台
     - title: Telegram
       logo: /assets/images/logos/tg.png
-      url: https://web.telegram.org/
+      url: assets/html/link.html?url=https://web.telegram.org/
       description: 全球最大的学习分享平台
     - title: Google学术
       logo: /assets/images/logos/scholar.png
-      url: https://scholar.google.com/
+      url: assets/html/link.html?url=https://scholar.google.com/
       description: 全球最大的学习分享平台
     - title: Google学术镜像
       logo: /assets/images/logos/scholar.png
-      url: http://ac.scmor.com/
+      url: assets/html/link.html?url=http://ac.scmor.com/
       description: 全球最大的学习分享平台
 
 - name: 内网服务
@@ -105,79 +105,79 @@
   links: 
     - title: 群晖后台
       logo: /assets/images/logos/sy.png
-      url: http://172.22.5.86:5000
+      url: assets/html/link.html?url=http://172.22.5.86:5000
       description: 全球最大的学习分享平台
     - title: 语雀
       logo: /assets/images/logos/yuque.svg
-      url: https://www.yuque.com/zy19970/
+      url: assets/html/link.html?url=https://www.yuque.com/zy19970/
       description: 全球最大的学习分享平台
     - title: 火箭TNT
       logo: /assets/images/logos/tnt.png
-      url: http://www.hjtnt5.com/user
+      url: assets/html/link.html?url=http://www.hjtnt5.com/user
       description: 全球最大的学习分享平台
     - title: 内网打印机
       logo: /assets/images/logos/print.png
-      url: https://172.22.5.48:631/admin
+      url: assets/html/link.html?url=https://172.22.5.48:631/admin
       description: 全球最大的学习分享平台
     - title: SMMS图床
       logo: /assets/images/logos/smms.png
-      url: https://smms.app/home/
+      url: assets/html/link.html?url=https://smms.app/home/
       description: 全球最大的学习分享平台
     - title: 路过图床
       logo: /assets/images/logos/imgse.png
-      url: https://imgse.com/intron
+      url: assets/html/link.html?url=https://imgse.com/intron
       description: 全球最大的学习分享平台
     - title: Cloudflare
       logo: /assets/images/logos/cloudflare.png
-      url: https://dash.cloudflare.com/
+      url: assets/html/link.html?url=https://dash.cloudflare.com/
       description: 全球最大的学习分享平台
     - title: Gitee
       logo: /assets/images/logos/gitee.png
-      url: https://gitee.com/zy19970
+      url: assets/html/link.html?url=https://gitee.com/zy19970
       description: 全球最大的学习分享平台
     - title: 监控IPv6
       logo: /assets/images/logos/cctv.png
-      url: https://scholar.google.com/
+      url: assets/html/link.html?url=https://scholar.google.com/
       description: 全球最大的学习分享平台
     - title: 微信公众平台
       logo: /assets/images/logos/wechat.png
-      url: https://mp.weixin.qq.com/
+      url: assets/html/link.html?url=https://mp.weixin.qq.com/
       description: 全球最大的学习分享平台
     - title: ResearchGate
       logo: /assets/images/logos/researchgate.png
-      url: https://www.researchgate.net
+      url: assets/html/link.html?url=https://www.researchgate.net
       description: 全球最大的学习分享平台
     - title: Overleaf
       logo: /assets/images/logos/overleaf.png
-      url: https://cn.overleaf.com/project
+      url: assets/html/link.html?url=https://cn.overleaf.com/project
       description: 全球最大的学习分享平台
     - title: LaTeX公式
       logo: /assets/images/logos/latex.png
-      url: https://www.latexlive.com/
+      url: assets/html/link.html?url=https://www.latexlive.com/
       description: 全球最大的学习分享平台
     - title: SimpleTex - Snip & Get!
       logo: /assets/images/logos/simple.png
-      url: https://simpletex.cn/
+      url: assets/html/link.html?url=https://simpletex.cn/
       description: 全球最大的学习分享平台
     - title: Cloudflare 测速
       logo: /assets/images/logos/cloudflare.png
-      url: https://speed.cloudflare.com/
+      url: assets/html/link.html?url=https://speed.cloudflare.com/
       description: 由Cloudflare的全球边缘网络提供测速支持
     - title: 蓝谷科技
       logo: /assets/images/logos/languyun.png
-      url: https://8465.cn/cart?fid=1&gid=6
+      url: assets/html/link.html?url=https://8465.cn/cart?fid=1&gid=6
       description: 全球最大的学习分享平台
     - title: 吾爱破解论坛
       logo: /assets/images/logos/52pojie.png
-      url: http://www.52pojie.cn/
+      url: assets/html/link.html?url=http://www.52pojie.cn/
       description: 全球最大的学习分享平台
     - title: 我不是盐神
       logo: /assets/images/logos/onehu.png
-      url: https://onehu.xyz/
+      url: assets/html/link.html?url=https://onehu.xyz/
       description: 知乎严选爬取
     - title: Home Assistant
       logo: /assets/images/logos/HA.png
-      url: http:/intron.51vip.biz:28129/
+      url: assets/html/link.html?url=http:/intron.51vip.biz:28129/
       description: 智能家居控制中枢
     - title: Microsoft Store
       logo: assets/images/logos/Store.png
@@ -185,7 +185,7 @@
       description: 微软应用商店应用下载
     - title: Look Scanned
       logo: https://static-cdn.camscanner.com/camscanner-seo/img/share.fff0391.png
-      url: https://lookscanned.io/zh
+      url: assets/html/link.html?url=hhttps://lookscanned.io/zh
       description: PDF文件扫描生成
     - title: 抖音视频下载
       logo: https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/ies/douyin_web/media/logo-jx-horizontal-small.03b5fc62ced6d184.svg

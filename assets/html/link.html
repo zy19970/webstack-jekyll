@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
     <title>正在跳转...</title>
     <style>
         body {
@@ -14,6 +15,7 @@
             margin: 0;
             background-color: #f0f0f0;
         }
+
         .loading {
             text-align: center;
             padding: 20px;
@@ -23,6 +25,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="loading" id="loadingDiv">
         <h2>正在跳转...</h2>
@@ -30,41 +33,90 @@
     </div>
 
     <script>
-        // 获取URL参数
         function getUrlParameter(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
         }
 
-        // 安全检查URL
-        function isValidUrl(string) {
+        const allowedOrigins = new Set([
+            "https://www.baidu.com",
+            "https://www.google.com",
+            "https://www.bing.com",
+            "https://inftab.com",
+
+            "https://www.bgrimm.com",
+            "https://mail.bgrimm.com",
+            "https://oa.bgrimm.cn",
+            "https://gsc.bgrimm.cn",
+
+            "https://yiyan.baidu.com",
+            "https://www.tongyi.com",
+            "https://kimi.moonshot.cn",
+            "https://www.doubao.com",
+            "https://xinghuo.xfyun.cn",
+            "https://chat.deepseek.com",
+            "https://www.openmao.cn",
+
+            "https://github.com",
+            "https://www.youtube.com",
+            "https://zh.wikipedia.org",
+            "https://web.telegram.org",
+            "https://scholar.google.com",
+            "http://ac.scmor.com",
+
+            "http://172.22.5.86:5000",
+            "https://172.22.5.48:631",
+            "https://www.yuque.com",
+            "http://www.hjtnt5.com",
+            "https://smms.app",
+            "https://imgse.com",
+            "https://dash.cloudflare.com",
+            "https://gitee.com",
+            "https://mp.weixin.qq.com",
+            "https://www.researchgate.net",
+            "https://cn.overleaf.com",
+            "https://www.latexlive.com",
+            "https://simpletex.cn",
+            "https://speed.cloudflare.com",
+            "https://8465.cn",
+            "http://www.52pojie.cn",
+            "https://onehu.xyz",
+            "http://intron.51vip.biz:28129",
+            "https://store.rg-adguard.net",
+            "https://lookscanned.io",
+            "https://dy.kukutool.com"
+        ]);
+
+        function isAllowedUrl(string) {
             try {
                 const url = new URL(string);
-                // 只允许 http 和 https 协议
-                return url.protocol === 'http:' || url.protocol === 'https:';
+
+                if (url.protocol !== "https:" && url.protocol !== "http:") {
+                    return false;
+                }
+
+                return allowedOrigins.has(url.origin);
             } catch (_) {
                 return false;
             }
         }
 
-        // 执行跳转
         function performRedirect() {
-            // 获取名为 'url' 的参数
-            const targetUrl = getUrlParameter('url');
-            
-            if (targetUrl) {
-                // 验证URL安全性
-                if (isValidUrl(targetUrl)) {
-                    window.location.href = targetUrl;
-                } else {
-                    document.getElementById('loadingDiv').innerHTML = '<h2>错误：无效的URL</h2>';
-                }
-            } else {
-                document.getElementById('loadingDiv').innerHTML = '<h2>错误：缺少URL参数</h2>';
+            const targetUrl = getUrlParameter("url");
+
+            if (!targetUrl) {
+                document.getElementById("loadingDiv").innerHTML = "<h2>错误：缺少URL参数</h2>";
+                return;
             }
+
+            if (!isAllowedUrl(targetUrl)) {
+                document.getElementById("loadingDiv").innerHTML = "<h2>错误：不允许跳转到该网站</h2>";
+                return;
+            }
+
+            window.location.replace(targetUrl);
         }
 
-        // 页面加载时立即执行跳转
         window.onload = performRedirect;
     </script>
 </body>

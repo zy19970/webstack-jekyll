@@ -109,14 +109,14 @@
         if (parsedUrl.protocol !== "https:" && parsedUrl.protocol !== "http:") {
             return {
                 ok: false,
-                message: "错误：仅允许 http 或 https 链接"
+                message: "警告：仅允许 http 或 https 链接"
             };
         }
 
         if (!allowedOrigins.has(parsedUrl.origin)) {
             return {
                 ok: false,
-                message: "警告：该网站不在白名单内，已阻止跳转"
+                message: "非法：该网站不在白名单内，已阻止跳转"
             };
         }
 
@@ -127,6 +127,7 @@
     }
 
     function showError(message) {
+        document.title = "跳转中止";
         document.getElementById("loadingDiv").innerHTML = `
             <h2>${message}</h2>
             <p>请检查网络连接情况或联系管理员添加白名单。</p>

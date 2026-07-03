@@ -3,19 +3,19 @@
   links: 
     - title: 百度
       logo: https://www.baidu.com/img/flexible/logo/pc/result.png
-      url: https://www.baidu.com/
+      url:assets/html/link.html?url=https://www.baidu.com/
       description: 全球最大的学习分享平台   
     - title: Google
       logo: /assets/images/logos/google.png
-      url: https://www.google.com/
+      url: assets/html/link.html?url=https://www.google.com/
       description: 全球最大的UI学习分享平台  
     - title: Bing
       logo: /assets/images/logos/bing.png
-      url: https://www.bing.com/
+      url: assets/html/link.html?url=https://www.bing.com/
       description: 全球最大的学习分享平台
     - title: Inftab
       logo: /assets/images/logos/spinner.gif
-      url: https://inftab.com/
+      url: assets/html/link.html?url=https://inftab.com/
       description: 一种舒服的新标签页     
 
 - name: 公司内网

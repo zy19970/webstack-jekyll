@@ -165,7 +165,7 @@
       description: 由Cloudflare的全球边缘网络提供测速支持
     - title: 蓝谷科技
       logo: /assets/images/logos/languyun.png
-      url: assets/html/link.html?url=https://8465.cn/cart?fid=1&gid=6
+      url: assets/html/link.html?url=https%3A%2F%2F8465.cn%2Fcart%3Ffid%3D1%26gid%3D6
       description: 全球最大的学习分享平台
     - title: 吾爱破解论坛
       logo: /assets/images/logos/52pojie.png
@@ -177,7 +177,7 @@
       description: 知乎严选爬取
     - title: Home Assistant
       logo: /assets/images/logos/HA.png
-      url: assets/html/link.html?url=http:/intron.51vip.biz:28129/
+      url: assets/html/link.html?url=http://intron.51vip.biz:28129/
       description: 智能家居控制中枢
     - title: Microsoft Store
       logo: assets/images/logos/Store.png
@@ -185,7 +185,7 @@
       description: 微软应用商店应用下载
     - title: Look Scanned
       logo: https://static-cdn.camscanner.com/camscanner-seo/img/share.fff0391.png
-      url: assets/html/link.html?url=hhttps://lookscanned.io/zh
+      url: assets/html/link.html?url=https://lookscanned.io/zh
       description: PDF文件扫描生成
     - title: 抖音视频下载
       logo: https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/ies/douyin_web/media/logo-jx-horizontal-small.03b5fc62ced6d184.svg

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正在跳转...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loadingDiv">
+        <h2>正在跳转...</h2>
+        <p>页面即将跳转，请稍候</p>
+    </div>
+
+    <script>
+        // 获取URL参数
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // 安全检查URL
+        function isValidUrl(string) {
+            try {
+                const url = new URL(string);
+                // 只允许 http 和 https 协议
+                return url.protocol === 'http:' || url.protocol === 'https:';
+            } catch (_) {
+                return false;
+            }
+        }
+
+        // 执行跳转
+        function performRedirect() {
+            // 获取名为 'url' 的参数
+            const targetUrl = getUrlParameter('url');
+            
+            if (targetUrl) {
+                // 验证URL安全性
+                if (isValidUrl(targetUrl)) {
+                    window.location.href = targetUrl;
+                } else {
+                    document.getElementById('loadingDiv').innerHTML = '<h2>错误：无效的URL</h2>';
+                }
+            } else {
+                document.getElementById('loadingDiv').innerHTML = '<h2>错误：缺少URL参数</h2>';
+            }
+        }
+
+        // 页面加载时立即执行跳转
+        window.onload = performRedirect;
+    </script>
+</body>
+</html>

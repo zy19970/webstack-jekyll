@@ -3,7 +3,7 @@
   links: 
     - title: 百度
       logo: https://www.baidu.com/img/flexible/logo/pc/result.png
-      url:assets/html/link.html?url=https://www.baidu.com/
+      url: assets/html/link.html?url=https://www.baidu.com/
       description: 全球最大的学习分享平台   
     - title: Google
       logo: /assets/images/logos/google.png

@@ -92,7 +92,7 @@
         document.getElementById("copyright").innerHTML = "Design by <a href='http://www.intron.store' target='_blank'><strong>Joey</strong></a> "+"© 2019-" + currentYear + " | <a href='https://beian.miit.gov.cn/' rel='external nofollow noopener' target='_blank'> 京ICP备19046886号-2</a>";
     </script>
     <!-- 搜索跳转 -->
-    <script>
+        <script>
         const searchBox = document.querySelector('.search-box');
         searchBox.addEventListener('keyup', (event) => {
             if (event.key === 'Enter') {
@@ -102,10 +102,17 @@
 
         function navigate() {
             let inputText = searchBox.value.trim();
+            if (!inputText) return; // 防止空输入
+
             if (!inputText.startsWith('http://') && !inputText.startsWith('https://')) {
                 inputText = 'https://' + inputText;
             }
-            window.open(inputText, '_blank');
+            
+            // 手动拼接你的代理前缀
+            const proxyUrl = 'https://proxyweb.intron.store/intron/' + inputText;
+            
+            // 在新标签页打开代理后的网址
+            window.open(proxyUrl, '_blank');
         }
     </script>
     <!-- 搜索跳转 -->

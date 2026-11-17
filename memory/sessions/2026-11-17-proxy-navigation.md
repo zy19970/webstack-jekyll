@@ -16,3 +16,5 @@ published: false
 代码和验证：`master` 的 `5380012` 在 `_layouts/about.html` 把完整网址直接拼到代理前缀后。修复将输入协议提取为独立路径段，默认 HTTPS，并保留目标地址其余部分。通过搜索框事件复现了旧错误并验证了新脚本的 6 个用例，涵盖省略协议、完整 HTTPS、HTTP 与端口、查询参数与片段、空输入及非 Enter 键。正确的代理地址在提交前实测返回 HTTP 200。
 
 拟交付回复：关于页搜索框的代理跳转格式已在脚本中修复。输入 `github.com/zy19970` 或 `https://github.com/zy19970` 会得到用户指定的代理地址。提交与线上部署结果以随后核验为准。
+
+交付核验：修复提交 [d170e5e](https://github.com/zy19970/webstack-jekyll/commit/d170e5ed8708141fb295d82f5955e567a642eb0d) 已推送至 `master`，[构建及部署工作流](https://github.com/zy19970/webstack-jekyll/actions/runs/44106325326) 成功。自定义域名最初仍返回旧页面，随后已从 `https://s.intron.store/about` 读到新脚本并验证 Enter 跳转生成期望地址。两个记忆文件均未出现在发布产物中。
